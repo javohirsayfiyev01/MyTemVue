@@ -52,7 +52,7 @@
       </li>
     </ul>
   </div>
-  <img src="@/img/delivers-bg-right.svg" alt="404" class="delivers__img-bg__right delivers__img-bg">
+  <img class="delivers__img-bg__right delivers__img-bg" src="@/img/delivers-bg-right.svg" alt="404">
 </section>
 </template>
 <script>
@@ -61,5 +61,123 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
+.delivers{
+  padding-bottom: 140px;
+}
+.delivers__title{
+  width: 932px;
+  height: 96px;
+  padding: 0;
+  margin-top: 140px;
+  margin-bottom: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.deliver__title{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: normal;
+  text-align: center;
+  justify-content: center;
+}
+.delivers__title span{
+  color: var(--rapture-blue);
+}
+.delivers__list{
+  position: relative;
+  width: 100%;
+  height: 313px;
+  margin: 0;
+  padding: 0;
+}
+.delivers__item{
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 266px;
+  margin: 0;
+  padding: 0;
+  margin-top: 36px;
+  margin-bottom: 11px;
+  list-style: none;
+  z-index: 10;
+}
+.delivers__item:not(:last-child){
+  margin-right: 30px;
+}
+.delivers__list-bg{
+  display: flex;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  margin-right: 142px;
+  margin-left: 142px;
+}
+.delivers__item-bg:not(:last-child){
+  margin: 0;
+  padding: 0;
+  margin-right: 312px;
+}
+.delivers__description{
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.delivers__name{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+}
+.deliver__name{
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: var(--rapture-blue);
+}
+.deliver__job-name{
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  margin-top: 2px;
+}
+.delivers__img{
+  width: 100%;
+  height: 62px;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 11px;
+}
+.deliver__img{
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delivers{
+  position: relative;
+}
+.delivers__img-bg{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.delivers__img-bg__left{
+  top: -140px;
+  left: 0;
+}
+.delivers__img-bg__right{
+  bottom: -242px;
+  right: 0;
+}
 </style>

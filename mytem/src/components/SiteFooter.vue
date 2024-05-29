@@ -47,6 +47,87 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
+.footer{
+  width: 100%;
+  height: 196px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: var(--dark-green);
+}
+.footer__content{
+  width: 100%;
+  height: 100px;
+
+}
+.footer__infoblock{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__sitenav{
+  display: block;
+  width: 285px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footer__sitenav-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+.footer__links{
+  width: 445px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footer__links-label{
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--white);
+  opacity: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__infoblock-socials{
+  width: 371px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footer__infoblock-social{
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.footer__infoblock-icon{
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  right: 0;
+  top: 0;
+}
+.footer_socials-desc{
+  width: 255px;
+  height: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  margin-top: 55px;
+  margin-left: auto;
+}
 
 </style>

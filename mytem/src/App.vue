@@ -10,7 +10,7 @@
           <li class="sitenav__item"><router-link class="sitenav__link" to="/about">About</router-link></li>
         </ul>
       </nav>
-      <button class="site-header__nav--toggler button" type="button">contact us</button>
+      <button @click="contact" class="site-header__nav--toggler button" type="button">contact us</button>
     </div>
   </header>
  <RouterView/>
@@ -34,6 +34,9 @@ export default{
   methods: {
     home(){
       this.$router.push({ name: "home" });
+    },
+    contact(){
+      this.$router.push({ name: "contact" });
     },
   },
 }

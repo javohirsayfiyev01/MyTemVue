@@ -52,7 +52,7 @@ export default {
   margin: 0;
   padding: 0;
   bottom: 0;
-  right: -100px;
+  right: 0;
   top: 98px;
 }
 </style>

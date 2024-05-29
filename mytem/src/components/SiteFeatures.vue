@@ -48,6 +48,109 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
+.features{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--state-green);
+}
+.features-container{
+  display: flex;
+}
+.features__info{
+  width: 445px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  margin-top: 140px;
+}
+.features__info hr{
+  width: 50px;
+  height: 4;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--light-coral);
+}
+.features__title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  padding-top: 54px;
+}
+
+.features__list{
+  width: 540px;
+  height: 346px;
+  margin: 0;
+  padding: 0;
+  margin-top: 198px;
+  margin-bottom: 140px;
+  margin-left: 125px;
+}
+.features__item{
+  display: flex;
+  width: 540px;
+  height: 94px;
+  padding: 0;
+  margin: 0;
+}
+.features__item:not(:last-child){
+  margin-bottom: 32px;
+}
+.feature__title{
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+  color: var(--light-coral);
+}
+.feature__description{
+  width: 100%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+}
+.features__icon-wrapper{
+  position: relative;
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  padding: 0;
+  margin-right: 23px;
+}
+.features__icon{
+  position: relative;
+  z-index: 1;
+}
+.features__icon-bg{
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left:   8px;
+  border-radius: 80%;
+  background-color: var(--police-blue);
+}
+.featurse-bg{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  right: 0px;
+}
+
 
 </style>

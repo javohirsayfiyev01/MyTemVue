@@ -1,58 +1,59 @@
 <template>
   <section class="directors__section">
+    <img class="directors__bg-1 directors__bg" src="@/img/directors__bg-2.svg" alt="404" >
     <div class="directors__container container">
       <div class="directors__title-box">
           <h1 class="directors__title">Meet the directors</h1>
       </div>
       <div class="directors__list">
         <div class="director__item">
-          <img class="director__img" src="../img/about__nikita.svg" alt="About Nikita">
+          <img class="director__img" src="@/img/about__nikita.svg" alt="About Nikita">
           <div class="director__header">
             <h2 class="director__name">Nikita Marks</h2>
             <h3 class="director__name-job">Founder & CEO</h3>
           </div>
             <a class="director__item-icon" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
         <div class="director__item">
-          <img class="director__img" src="../img/cristian.svg" alt="Cristian Duncan">
+          <img class="director__img" src="@/img/cristian.svg" alt="Cristian Duncan">
           <div class="director__header">
             <h2 class="director__name">Cristian Duncan</h2>
             <h3 class="director__name-job">Co-founder & COO</h3>
           </div>
             <a class="director__item-icon" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
         <div class="director__item">
-          <img class="director__img" src="../img/cruz.svg" alt="Cruz Hamer">
+          <img class="director__img" src="@/img/cruz.svg" alt="Cruz Hamer">
           <div class="director__header">
             <h2 class="director__name">Cruz Hamer</h2>
             <h3 class="director__name-job">Co-founder & CTO</h3>
           </div>
             <a class="director__item-icon" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
         <div class="director__item">
-          <img class="director__img" src="../img/drake.svg" alt="Drake Heaton">
+          <img class="director__img" src="@/img/drake.svg" alt="Drake Heaton">
           <div class="director__header">
             <h2 class="director__name">Drake Heaton</h2>
             <h3 class="director__name-job">Business Development Lead</h3>
           </div>
             <a class="director__item-icon" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
         <div class="director__item">
-          <img class="director__img" src="../img/griffin.svg" alt="Griffin Wise">
+          <img class="director__img" src="@/img/griffin.svg" alt="Griffin Wise">
           <div class="director__header">
             <h2 class="director__name">Griffin Wise</h2>
             <h3 class="director__name-job">Lead Marketing</h3>
           </div>
             <a class="director__item-icon" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
 
@@ -74,11 +75,12 @@
 
 
             <a class="director__item-icon director__item-icon-allan" href="#" >
-              <img class="director__icon-link" src="../img/about__+.svg" alt="404">
+              <img class="director__icon-link" src="@/img/about__+.svg" alt="404">
             </a>
           </div>
         </div>
     </div>
+    <img class="directors__bg-2 directors__bg" src="@/img/directors__bg-1.svg" alt="404" >
   </section>
 </template>
 <script>
@@ -88,6 +90,7 @@ export default {
 </script>
 <style>
 .directors__section{
+  position: relative;
   width: 100%;
   height: 1002px;
   padding-top: 140px;
@@ -201,4 +204,18 @@ export default {
   height: 20px;
   margin: 24px 145px 0;
 }
+.directors__bg{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.directors__bg-1{
+top: 0;
+left: 0;
+}
+.directors__bg-2{
+  bottom: 0;
+  right: 0;
+}
+
 </style>

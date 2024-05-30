@@ -160,9 +160,16 @@ img{
   text-transform: lowercase;
   color: var(--white);
 }
+.sitenav__link:active{
+  color: var(--light-coral);
+}
 
 .site-header__nav--toggler{
   border: 2px solid var(--white);
   background-color: var(--midnight-green);
   color: var(--white);
+}
+.site-header__nav--toggler:active{
+  background-color: var(--white);
+  color: var(--dark-green);
 }

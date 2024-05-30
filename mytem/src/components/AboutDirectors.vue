@@ -188,14 +188,27 @@ export default {
   margin-left: 147px;
   background-color: var(--light-coral);
 }
+.director__item-icon:active{
+  background-color: var(--rapture-blue);
+}
 .director__item-icon-allan{
   margin-top: 63px;
   background-color: var(--rapture-blue);
+}
+.director__item-icon-allan:active{
+  background-color: var(--light-coral);
 }
 .director__icon-link{
   width: 16px;
   height: 16px;
   object-fit: contain;
+}
+.director__icon-allan{
+  cursor: pointer;
+}
+.director__icon-allan:active{
+  background-color: var(--light-coral);
+  color: var(--light-coral);
 }
 .director__icon{
   display: flex;

@@ -17,13 +17,13 @@
       <div class="footer__infoblock-socials">
         <div class="footer__infoblock-social">
           <a href="#" class="footer__infoblock-icon">
-          <img src="@/img/icon-facebook.svg" alt="Facebook icon">
+          <img class="footer__icon" src="@/img/icon-facebook.svg" alt="Facebook icon">
         </a>
         <a href="#" class="footer__infoblock-icon">
-          <img src="@/img/icon-pinterest.svg" alt="Pinterest icon">
+          <img class="footer__icon" src="@/img/icon-pinterest.svg" alt="Pinterest icon">
         </a>
         <a href="#" class="footer__infoblock-icon">
-          <img src="@/img/icon-twitter.svg" alt="Twitter icon">
+          <img class="footer__icon" src="@/img/icon-twitter.svg" alt="Twitter icon">
         </a>
         </div>
         <p class="footer_socials-desc">Copyright 2020. All Rights Reserved</p>
@@ -118,6 +118,10 @@ export default {
   height: 24px;
   right: 0;
   top: 0;
+}
+.footer__icon:active{
+  color: var(--light-coral);
+  background-color: var(--light-coral);
 }
 .footer_socials-desc{
   width: 255px;

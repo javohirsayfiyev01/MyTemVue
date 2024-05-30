@@ -50,6 +50,11 @@ export default {
   background-color: var(--light-coral);
   color: var(--state-green);
 }
+.started__toggler:active{
+  background-color: var(--state-green);
+  color: var(--white);
+
+}
 .started__bg{
   position: absolute;
   margin: 0;
